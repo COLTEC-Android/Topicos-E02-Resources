@@ -18,14 +18,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button btnSurprise = findViewById(R.id.btn_surprise);
-        btnSurprise.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-//                TODO(#1): Esse texto não deveria estar aqui
-                Toast toast = Toast.makeText(MainActivity.this, R.string.toast, Toast.LENGTH_LONG);
-                toast.setGravity(CENTER, 0, 0);
-                toast.show();
-            }
+        btnSurprise.setOnClickListener(view -> {
+            Toast toast = Toast.makeText(MainActivity.this, R.string.toast, Toast.LENGTH_LONG);
+            toast.setGravity(CENTER, 0, 0);
+            toast.show();
         });
     }
 }

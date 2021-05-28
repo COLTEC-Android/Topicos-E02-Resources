@@ -7,7 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-<!--  TODO: Devemos isolar o valor dos atributos desse componente  -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -15,16 +14,15 @@
         android:layout_centerHorizontal="true"
         android:textAlignment="center"
         android:background="@color/gold_1"
-        android:textSize="30dp"
-        android:padding="30dp"/>
+        android:textSize="@dimen/txt_default"
+        android:padding="@dimen/padding"/>
 
-<!--  TODO: Devemos isolar o valor dos atributos desse componente  -->
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="@dimen/margin_bottom"
         android:text="@string/surpresa"
         android:id="@+id/btn_surprise"/>
 </RelativeLayout>
