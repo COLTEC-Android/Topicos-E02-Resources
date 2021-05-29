@@ -14,8 +14,8 @@
         android:layout_centerHorizontal="true"
         android:textAlignment="center"
         android:background="@color/tacha"
-        android:textSize="30dp"
-        android:padding="30dp"/>
+        android:textSize="@dimen/text_size"
+        android:padding="@dimen/padding"/>
 
 <!--  TODO: Devemos isolar o valor dos atributos desse componente  -->
     <Button
@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="@dimen/text_size"
         android:text="@string/btn_surprise"
         android:id="@+id/btn_surprise" />
 </RelativeLayout>
