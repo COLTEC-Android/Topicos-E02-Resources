@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ol_mundo">Olá, mundo!</string>
+    <string name="surpresa">Surpresa!</string>
+    <string name="toast">Bem vindo, mestre</string>
+</resources>
