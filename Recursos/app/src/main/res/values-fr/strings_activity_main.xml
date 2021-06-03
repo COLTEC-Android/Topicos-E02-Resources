@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="text_name">classe de ressources</string>
+    <string name="button_name">Cliquez ici</string>
+    <string name="toast_name">toast Classe de ressources</string>
+</resources>
