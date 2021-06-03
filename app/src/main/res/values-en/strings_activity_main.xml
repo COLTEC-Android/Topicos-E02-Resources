@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="text_view">Hello, World</string>
+    <string name="button">Surprise!</string>
+    <string name="toast_text">Welcome, master</string>
+</resources>
