@@ -1,3 +1,5 @@
 <resources>
+    <string name="app_bemVindo">Bem vindo, mestre</string>
     <string name="app_name">Olá, Mundo</string>
+    <string name="app_supresa">Surpresa!</string>
 </resources>

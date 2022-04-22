@@ -7,4 +7,14 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="metallicGold">#D4AF37</color>
+    <color name="metallicGold_2">#AA8C2C</color>
+    <color name="metallicGold_3">#887023</color>
+    <color name="metallicGold_4">#6D5A1C</color>
+    <color name="metallicGold_5">#574816</color>
+    <color name="metallicGold_6">#463A12</color>
+    <color name="metallicGold_7">#382E0E</color>
+    <color name="metallicGold_8">#2D250B</color>
+    <color name="metallicGold_9">#241E09</color>
+    <color name="metallicGold_10">#1D1807</color>
 </resources>
