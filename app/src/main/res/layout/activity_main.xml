@@ -13,7 +13,7 @@
         android:text="@string/abertura_txt"
         android:layout_centerHorizontal="true"
         android:textAlignment="center"
-        android:background="#D4AF37"
+        android:background="@color/gold"
         android:textSize="30dp"
         android:padding="30dp"/>
 
