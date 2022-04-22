@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="msg_tela_inicial">Olá, mundo!</string>
+    <string name="msg_toast">Bem vindo, mestre</string>
+    <string name="msg_btn_inicial">Surpresa!</string>
+
+</resources>

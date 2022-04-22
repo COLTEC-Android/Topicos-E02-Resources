@@ -10,20 +10,21 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Olá, mundo!"
+        android:text="@string/msg_tela_inicial"
         android:layout_centerHorizontal="true"
         android:textAlignment="center"
-        android:background="#D4AF37"
-        android:textSize="30dp"
-        android:padding="30dp"/>
+        android:background="@color/mettalic_gold"
+        android:textColor="@color/maire"
+        android:textSize="@dimen/activity_mainTextSize"
+        android:padding="@dimen/activity_padding"/>
 
 <!--  TODO: Devemos isolar o valor dos atributos desse componente  -->
     <Button
+        android:id="@+id/btn_surprise"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="50dp"
-        android:text="Surpresa!"
-        android:id="@+id/btn_surprise"/>
+        android:layout_marginBottom="@dimen/button_marginBottom"
+        android:text="@string/msg_btn_inicial" />
 </RelativeLayout>

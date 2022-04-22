@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="activity_mainTextSize">30dp</dimen>
+    <dimen name="activity_padding">30dp</dimen>
+    <dimen name="button_marginBottom">50dp</dimen>
+
+
+</resources>
