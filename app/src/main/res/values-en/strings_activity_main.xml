@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abertura_txt">Hello World!</string>
+    <string name="button_txt">Surprise</string>
+    <string name="toast_txt">Welcome master</string>
+</resources>
