@@ -6,24 +6,26 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-<!--  TODO: Devemos isolar o valor dos atributos desse componente  -->
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Olá, mundo!"
         android:layout_centerHorizontal="true"
         android:textAlignment="center"
-        android:background="#D4AF37"
-        android:textSize="30dp"
-        android:padding="30dp"/>
 
-<!--  TODO: Devemos isolar o valor dos atributos desse componente  -->
+        android:background="@color/metalic_gold"
+        android:text="@string/titulo"
+        android:textSize="@dimen/text_size"
+        android:padding="@dimen/text_padding"/>
+
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="50dp"
-        android:text="Surpresa!"
+
+        android:layout_marginBottom="@dimen/btn_margBotton"
+        android:text="@string/btnSurpresa"
         android:id="@+id/btn_surprise"/>
 </RelativeLayout>

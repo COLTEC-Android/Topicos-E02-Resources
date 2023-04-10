@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hellooo</string>
+    <string name="btnSurpresa">Surprise!</string>
+    <string name="titulo">Helloooo</string>
+    <string name="toast_welcome">Welcome, master D;</string>
+</resources>
